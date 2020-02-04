@@ -5,32 +5,8 @@
 
 **OsuSharp is a wrapper written in C# for the osu! API.**
 
-- Compatible with .NET Standard (2.0)
+- Compatible with .NET Core 3.1
 - Supports asynchronous API requests (through the TAP model)
-
-## Requirements:
-
-- Newtonsoft.Json (>= 10.0.3)
-
-## Installation
-
-You can install the wrapper with NuGet:
-
-```
-PM> Install-Package OsuSharp
-```
-
-Or compile from source:
-
-```git
-git clone https://github.com/Kiritsu/OsuSharp.git
-```
-
-## OsuSharp.Oppai
-
-For this assembly, you will need oppai.dll which you can found here: https://github.com/Francesco149/oppai-ng/releases
-
-You must put oppai.dll in the same folder as your main executable/dll.
 
 ## Contributing
 
